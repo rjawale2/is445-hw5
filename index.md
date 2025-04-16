@@ -10,6 +10,7 @@ title: Homework 5
 ### Plot 2: Interactive State and Shape Distribution
 <div id="vis2"></div>
 
+{% raw %}
 <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -18,6 +19,7 @@ title: Homework 5
   vegaEmbed('#vis1', 'plot1.json');
   vegaEmbed('#vis2', 'plot2.json');
 </script>
+{% endraw %}
 
 ## Write-Up
 
